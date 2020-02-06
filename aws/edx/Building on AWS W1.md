@@ -10,7 +10,7 @@ Launching an EC2 instance:
 * On the EC2 dashboard, select "Launch Instance"
 * On the next page, select the Linux AMI option. Linux 2 AMI is not advisable.
 * t2.micro is suggested hardware configuration due to being free-tier eligible.
-* Most instance details on the next page are best left as defaults. Expand the advanced details section and under "User data" copy over the [userdata.txt](aws/edx/userdata.txt) file and choose next.
+* Most instance details on the next page are best left as defaults. Expand the advanced details section and under "User data" copy over the [userdata.txt](https://github.com/charlesrharrington/Learning/blob/master/aws/edx/userdata.txt) file and choose next.
 * Leaving the defaults for storage is suggested at this point and continuing on to the "Add Tags" page.
 * Tags are a key/value pair, such as Name and (for this exercise) SamplePythonApp
 * In the next section we add a security group. For now we'll be creating a new one - the name does not matter. For this new security group you can delete the roles such as the SSH role by clicking the X button at the end of its row.
